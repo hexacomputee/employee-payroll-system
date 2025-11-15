@@ -30,70 +30,29 @@ employee-payroll-system /
    - Generate payroll report  
    - Save data to file
 ## 📝 Example
- ==============================
-        MAIN MENU
-==============================
-1. Add Employee
-2. Record Attendance
-3. Payroll Report
-4. Save & Exit
-Choose an option: 1
 
-Enter Employee ID: 101
-Enter Employee Name: John Doe
+```text
+Save & Exit
+Choose: 1
+Enter ID: 101
+Enter Name: John Doe
 Enter Hourly Rate: 15
+Employee Added!
 
-==============================
-      Employee Added ✅
-==============================
-ID: 101
-Name: John Doe
-Hourly Rate: $15.00
-------------------------------
+Choose: 2
+Enter ID: 101
+Hours worked: 8
+Attendance Recorded!
 
-==============================
-        MAIN MENU
-==============================
-1. Add Employee
-2. Record Attendance
-3. Payroll Report
-4. Save & Exit
-Choose an option: 2
+Choose: 3
+ID   Name       Hours   Salary
+101  John Doe   8       120
 
-Enter Employee ID: 101
-Hours worked today: 8
+Choose: 4
+Data Saved. Exiting...
+```
 
-Attendance recorded successfully!
-------------------------------
 
-==============================
-        MAIN MENU
-==============================
-1. Add Employee
-2. Record Attendance
-3. Payroll Report
-4. Save & Exit
-Choose an option: 3
-
-==============================
-        PAYROLL REPORT
-==============================
-ID    Name                 Hours     Salary    
-----------------------------------------
-101   John Doe             8         120       
-------------------------------
-
-==============================
-        MAIN MENU
-==============================
-1. Add Employee
-2. Record Attendance
-3. Payroll Report
-4. Save & Exit
-Choose an option: 4
-
-Data saved to employees.txt
-Exiting program...
 
 
 ## 📄 License
