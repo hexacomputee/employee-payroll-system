@@ -32,7 +32,11 @@ employee-payroll-system /
 ## 📝 Example
 
 ```text
-Save & Exit
+MAIN MENU
+1. Add Employee
+2. Record Attendance
+3. Payroll Report
+4. Save & Exit
 Choose: 1
 Enter ID: 101
 Enter Name: John Doe
