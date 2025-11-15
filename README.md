@@ -30,18 +30,71 @@ employee-payroll-system /
    - Generate payroll report  
    - Save data to file
 ## 📝 Example
- 1- Add Employee
+ ==============================
+        MAIN MENU
+==============================
+1. Add Employee
+2. Record Attendance
+3. Payroll Report
+4. Save & Exit
+Choose an option: 1
 
- 2- Record Attendance
+Enter Employee ID: 101
+Enter Employee Name: John Doe
+Enter Hourly Rate: 15
 
- 3- Payroll Report
+==============================
+      Employee Added ✅
+==============================
+ID: 101
+Name: John Doe
+Hourly Rate: $15.00
+------------------------------
 
- 4- Save & Exit
-     - Choose: 1
-     - Enter ID: 101
-     - Enter Name: John Doe
-     - Enter Hourly Rate: 15
-     - Employee added successfully!
+==============================
+        MAIN MENU
+==============================
+1. Add Employee
+2. Record Attendance
+3. Payroll Report
+4. Save & Exit
+Choose an option: 2
+
+Enter Employee ID: 101
+Hours worked today: 8
+
+Attendance recorded successfully!
+------------------------------
+
+==============================
+        MAIN MENU
+==============================
+1. Add Employee
+2. Record Attendance
+3. Payroll Report
+4. Save & Exit
+Choose an option: 3
+
+==============================
+        PAYROLL REPORT
+==============================
+ID    Name                 Hours     Salary    
+----------------------------------------
+101   John Doe             8         120       
+------------------------------
+
+==============================
+        MAIN MENU
+==============================
+1. Add Employee
+2. Record Attendance
+3. Payroll Report
+4. Save & Exit
+Choose an option: 4
+
+Data saved to employees.txt
+Exiting program...
+
 
 ## 📄 License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
