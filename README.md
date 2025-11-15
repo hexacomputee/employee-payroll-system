@@ -37,13 +37,11 @@ employee-payroll-system /
  3- Payroll Report
 
  4- Save & Exit
-     Choose: 1
-     Enter ID: 101
-     Enter Name: John Doe
-     Enter Hourly Rate: 15
-     Employee added successfully!
+     - Choose: 1
+     - Enter ID: 101
+     - Enter Name: John Doe
+     - Enter Hourly Rate: 15
+     - Employee added successfully!
 
 ## 📄 License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-## 📝 Example
-
